@@ -1,0 +1,36 @@
+.card{
+    
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 42px;
+    /* background-color: rgba(240, 240, 8, 0.932); */
+    background-color: rgb(240, 160, 11);
+}
+img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    padding-right: 15px;
+    padding-top: 30px;
+}
+.cardDetails{
+    background-color: white;
+    width: 490px;
+    height: 210px;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-shadow: 5px 3px rgba(0, 0, 0, 0.555);
+}
+.name{
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
